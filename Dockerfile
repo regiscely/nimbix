@@ -1,6 +1,5 @@
 FROM nvidia/cuda-ppc64le:10.1-runtime-ubuntu18.04
 
-COPY
 
 RUN apt-get -y update && \
     apt-get -y install curl && \
